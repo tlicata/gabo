@@ -70,4 +70,5 @@ Vagrant.configure(2) do |config|
   # SHELL
 
   config.vm.provision :shell, name: "apt-get", path: "install/apt-get.sh"
+  config.vm.provision :shell, name: "rbenv", path: "install/rbenv.sh", privileged: false
 end
