@@ -72,4 +72,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "apt-get", path: "install/apt-get.sh"
   config.vm.provision :shell, name: "rbenv", path: "install/rbenv.sh", privileged: false
   config.vm.provision :shell, name: "ruby", path: "install/ruby.sh", privileged: false
+  config.vm.provision :shell, name: "postgres", path: "install/postgres.sh", privileged: false
 end
