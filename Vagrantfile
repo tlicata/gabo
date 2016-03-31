@@ -75,5 +75,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "postgres", path: "install/postgres.sh", privileged: false
   config.vm.provision :shell, name: "nvm", path: "install/nvm.sh", privileged: false
   config.vm.provision :shell, name: "redis", path: "install/redis.sh"
-  config.vm.provision :shell, name: "redis", path: "install/heroku.sh"
+  config.vm.provision :shell, name: "heroku", path: "install/heroku.sh", privileged: false
 end
