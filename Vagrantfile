@@ -84,4 +84,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "heroku", path: "install/heroku.sh", privileged: false
   config.vm.provision :shell, name: "java", path: "install/java.sh", privileged: false
   config.vm.provision :shell, name: "qt", path: "install/qt.sh", privileged: false
+  config.vm.provision :shell, name: "imagemagick", path: "install/imagemagick.sh", privileged: false
 end
