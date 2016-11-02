@@ -88,4 +88,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "imagemagick", path: "install/imagemagick.sh", privileged: false
   config.vm.provision :shell, name: "phantomjs", path: "install/phantomjs.sh", privileged: true
   config.vm.provision :shell, name: "solr", path: "install/solr.sh", privileged: false
+  config.vm.provision :shell, name: "icu", path: "install/icu.sh", privileged: false
 end
