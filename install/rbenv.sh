@@ -11,6 +11,6 @@ if [ ! -d ".rbenv" ]; then
     echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> .bashrc
     echo 'eval "$(rbenv init -)"' >> .bashrc
 fi
-if [ ! -d "/home/vagrant/.rbenv/plugins/ruby-build" ]; then
-  git clone https://github.com/rbenv/ruby-build.git /home/vagrant/.rbenv/plugins/ruby-build
+if [ ! -d ".rbenv/plugins/ruby-build" ]; then
+  git clone https://github.com/rbenv/ruby-build.git .rbenv/plugins/ruby-build
 fi
