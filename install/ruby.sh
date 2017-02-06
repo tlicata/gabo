@@ -7,5 +7,6 @@
 # sudo -H -u ubuntu bash -i -c 'rbenv install --skip-existing 2.1.2'
 sudo -H -u ubuntu bash -i -c 'rbenv install --skip-existing 2.3.0'
 # sudo -H -u ubuntu bash -i -c 'rbenv install --skip-existing 2.3.1'
+sudo -H -u ubuntu bash -i -c 'rbenv install --skip-existing 2.3.3'
 sudo -H -u ubuntu bash -i -c 'rbenv global 2.3.0'
 sudo -H -u ubuntu bash -i -c 'rbenv rehash'
