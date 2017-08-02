@@ -91,5 +91,6 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "icu", path: "install/icu.sh", privileged: false
   config.vm.provision :shell, name: "aws", path: "install/aws.sh", privileged: false
   config.vm.provision :shell, name: "nginx", path: "install/nginx.sh", privileged: false
+  config.vm.provision :shell, name: "force", path: "install/force.sh", privileged: true
   config.vm.provision :shell, name: "prompt", path: "install/customize-prompt.sh", privileged: false
 end
