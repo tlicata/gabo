@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "ubuntu/zesty64"
+  config.vm.box = "ubuntu/artful64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -80,7 +80,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "ruby", path: "install/ruby.sh", privileged: false
   config.vm.provision :shell, name: "postgres", path: "install/postgres.sh", privileged: false
   config.vm.provision :shell, name: "sqlite", path: "install/sqlite.sh", privileged: false
-  config.vm.provision :shell, name: "nvm", path: "install/nvm.sh", privileged: false
+  config.vm.provision :shell, name: "node", path: "install/node.sh", privileged: false
   config.vm.provision :shell, name: "redis", path: "install/redis.sh"
   config.vm.provision :shell, name: "heroku", path: "install/heroku.sh", privileged: false
   config.vm.provision :shell, name: "java", path: "install/java.sh", privileged: false

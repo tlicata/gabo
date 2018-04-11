@@ -5,7 +5,7 @@
 # Script is privileged so can write to /opt/.
 
 PHANTOM_COMMENT="### Added by Gabo for PhantomJS path"
-BASHRC=/home/ubuntu/.bashrc
+BASHRC=/home/vagrant/.bashrc
 
 if ! grep "$PHANTOM_COMMENT" $BASHRC > /dev/null; then
     cd /opt/
