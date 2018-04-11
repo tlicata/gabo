@@ -6,8 +6,8 @@
 
 # sudo -H -u vagrant bash -i -c 'rbenv install --skip-existing 2.1.2'
 # sudo -H -u vagrant bash -i -c 'rbenv install --skip-existing 2.2.4'
-sudo -H -u vagrant bash -i -c 'rbenv install --skip-existing 2.3.0'
+# sudo -H -u vagrant bash -i -c 'rbenv install --skip-existing 2.3.0'
 # sudo -H -u vagrant bash -i -c 'rbenv install --skip-existing 2.3.1'
-# sudo -H -u vagrant bash -i -c 'rbenv install --skip-existing 2.3.3'
-sudo -H -u vagrant bash -i -c 'rbenv global 2.3.0'
+sudo -H -u vagrant bash -i -c 'rbenv install --skip-existing 2.3.5'
+sudo -H -u vagrant bash -i -c 'rbenv global 2.3.5'
 sudo -H -u vagrant bash -i -c 'rbenv rehash'
