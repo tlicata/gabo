@@ -2,4 +2,4 @@
 
 # Core needs a JavaScript runtime
 
-sudo apt-get --yes install nodejs
+sudo apt-get --yes install nodejs npm
